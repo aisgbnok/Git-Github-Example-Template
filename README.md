@@ -6,8 +6,7 @@ this repo and mess around.
 ## Authors
 
 - Anthony Swierkosz (aisgbnok)
-
-<!-- TODO: Add your name to the list! -->
+- <name> (<GitHub username>)
 
 ## Exercise
 
@@ -34,23 +33,16 @@ be done locally.)
 
 > Clone...
 
-### 1. Authors
+### 1. Change your `README`
 
-Add your name to the list of authors and remove the TODO comment.
+Let's start with something simple. This README.md is a markdown file. Markdown files are text files
+with some basic formatting abilities. Markdown files have a `.md` file extension and are widely used
+by developers for documentation. (Like having a README file explaining what their repository does.)
 
-**Replace**
+Let's clean up this repository now that it is yours!
 
-```
-<!-- TODO: Add your name to the list! -->
-```
-
-**With**
-
-```
-- <name> (<GitHub username>)
-```
-
-<br>
+1. Start by removing all of section `0. Copy this Repository` until you get to
+   section `1. Change your README`
 
 > Make a commit.
 
