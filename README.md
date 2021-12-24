@@ -45,8 +45,8 @@ changes).
 
 > The two main options for using/interfacing with Git are:
 >
-> 1. Using third-party Graphical User Interfaces (GUIs) like GitKraken, GitHub Desktop, or an IDE with Git integration like JetBrains IDEs.
-> 2. Using the Git command line / terminal commands.
+> - Using third-party Graphical User Interfaces (GUIs) like [GitHub Desktop](https://desktop.github.com/), an IDE with Git integration like [JetBrains IDEs](https://www.jetbrains.com/), or [GitKraken](https://www.gitkraken.com/).
+> - Using the [Git command line / terminal commands.](https://git-scm.com/docs/git)
 >
 > The purpose of Git is to improve a developer's productivity. Many choose to learn Git terminal
 > commands, but others only use Git through a GUI. IDEs like JetBrains have a phenomenal and robust
