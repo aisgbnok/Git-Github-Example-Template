@@ -12,21 +12,35 @@ repository and mess around; however, please provide attribution.
 
 Let's do a few simple exercises to provide a basic understanding of Git & GitHub.
 
-### 0. Copy this Repository
+### 0. Generate New Repository
 
-#### Duplicate Template
+This repository is
+a [template repository,](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+that you can't modify because I own it. So to get started we need to generate a new repository, that
+you own, based on this one. This is done on the GitHub website.
 
-This repository is a template repository, so first we need to make a copy on your GitHub account.
+#### Generate New Repository
 
-1. Click the `Use this template` button on the repo's GitHub homepage
+1. Click the <kbd>Use this template</kbd> button at the top of this repository's GitHub homepage
    or [navigate to this link.](https://github.com/aisgbnok/Git-Github-Example-Template/generate)
-    - This will duplicate the repo but keep all the files.
-    - This repo is owned by `aisgbnok/Git-Github-Example-Template`
-    - The new repo is owned by `<your GitHub username>/<repo name> `
-2. Choose a `repository name` for this duplicate
-3. You can ensure only you have access to the repo by making it private, or you can keep it public
-   where anyone can see this on your GitHub profile.
-4. Create the new repository from the template.
+    - This will generate a new repository based on this template repository.
+    - This repository is owned by me, `aisgbnok/Git-Github-Example-Template`
+    - The new repository will be owned by you, `<your GitHub username>/<repo name> `
+2. Choose a repository name, like `git-github-example`.
+3. You can ensure only you have access to the repository by making it private, or you can keep it
+   public allowing anyone to see this on your GitHub profile.
+4. Create the new repository from this template.
+
+### 0. Using your Repository
+
+Remember, you don't have permission to edit the `aisgbnok/Git-Github-Example-Template` repository.
+So from now on you must use your own repository. You just generated your own repository based on
+the [`aisgbnok/Git-Github-Example-Template`](https://github.com/aisgbnok/Git-Github-Example-Template)
+repository.
+
+If you aren't already reading this on your own personal repository, this would be a good time to
+close the `aisgbnok/Git-Github-Example-Template` repository, open your newly generated repository,
+and continue the following steps there. 👍
 
 #### Cloning your Repository
 
