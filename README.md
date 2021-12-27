@@ -42,25 +42,24 @@ If you aren't already reading this on your own personal repository, this would b
 close the `aisgbnok/Git-Github-Example-Template` repository, open your newly generated repository,
 and continue the following steps there. 👍
 
-#### Cloning your Repository
+### 1. Cloning this Repository
+
+To start working on this repository we need to connect Git on your local machine to this repository
+on GitHub's server.
 
 > Remember 💡
 >
 > - Git is an open-source DVCS that runs locally on your computer.
 > - GitHub, while sharing the Git name, is a proprietary hosting platform for Git repositories. GitHub itself is not a version control system.
 
-We just generated a new repository on GitHub's remote server. To start working on this repository we
-need to connect Git on your local machine to this repository on GitHub's server.
+Right now, this repository only exists on GitHub's server. We need to clone it locally using Git.
+When we clone a repository Git will automatically configure everything we need (set GitHub as a
+remote & pull this repository from the remotes).
 
-If we had this repository already on our machine we would manually set GitHub as a remote repository
-and then sync (push & pull) changes. However, because we don't have this repository on our machine
-we can clone it and Git will automatically configure everything we need (set the remote & sync
-changes).
-
-> The two main options for using/interfacing with Git are:
+> The two main options for interfacing with Git are:
 >
-> - Using third-party Graphical User Interfaces (GUIs) like [GitHub Desktop](https://desktop.github.com/), an IDE with Git integration like [JetBrains IDEs](https://www.jetbrains.com/), or [GitKraken](https://www.gitkraken.com/).
-> - Using the [Git command line / terminal commands.](https://git-scm.com/docs/git)
+> - Using third-party Graphical User Interfaces (GUIs) like [GitHub Desktop](https://desktop.github.com/) or IDEs with Git integration like [JetBrains IDEs.](https://www.jetbrains.com/)
+> - Using the [Git terminal commands.](https://git-scm.com/docs/git)
 >
 > The purpose of Git is to improve a developer's productivity. Many choose to learn Git terminal
 > commands, but others only use Git through a GUI. IDEs like JetBrains have a phenomenal and robust
@@ -69,7 +68,9 @@ changes).
 > Therefore, I will always provide the Git terminal commands, and I will try to provide GUI
 > instructions for JetBrains IDEs as well.
 
-To clone the repository we need to copy the GitHub HTTPS URL and give it to Git. JetBrains has
+#### Cloning
+
+To clone this repository we need to copy the GitHub HTTPS URL and give it to Git. JetBrains has
 a [great blog post on cloning](https://blog.jetbrains.com/idea/2020/10/clone-a-project-from-github/)
 and [other Git documentation for their IDEs.](https://www.jetbrains.com/help/idea/set-up-a-git-repository.html)
 
@@ -82,7 +83,7 @@ https://github.com/<Your Username>/<Repo Name>.git
 
 > Continue below for terminal commands, or follow the JetBrains blog/documentation links above if using their IDE.
 
-> You can choose to use both terminal or IDE GUI interchangeably. For example, you can clone this repository using terminal commands and then once you open the project in your IDE it will automatically detect the `.git` folder and enable Git support.
+> You can choose to use both terminal or GUI interchangeably. For example, you can clone this repository using terminal commands and then once you open the project in your IDE it will automatically detect the `.git` folder and enable Git support.
 
 3. Open terminal on your machine
 4. In terminal, navigate to the directory you plan on placing your repository
