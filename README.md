@@ -108,19 +108,70 @@ from the GitHub server.
 Go ahead and open the directory on your machine or in your IDE, you should see the `.git` directory
 and this `README.md` file.
 
-### 1. Change your `README`
+### 2. Basic Git Commands
 
-Let's start with something simple. This README.md is a markdown file. Markdown files are text files
-with some basic formatting abilities. Markdown files have a `.md` file extension and are widely used
-by developers for documentation. (Like having a README file explaining what their repository does.)
+We have successfully generated our own repository from a template, and we have just cloned it to our
+local computer. Now that Git and GitHub are set up and connected we can let them fade into the
+background and do their job. Well not exactly, but sort of.
 
-Let's clean up this repository now that it is yours!
+All of this might be confusing now, and that's okay. As you continue to use Git and GitHub they will
+slowly start feeling less like a chore and more like a companion aiding your development journeys.
 
-1. Start by removing all of section `0. Copy this Repository` until you get to
-   section `1. Change your README`
+Let's go over some basic Git commands to get started.
+
+#### Status
+
+[Provides repository status,](https://git-scm.com/docs/git-status) like if your working space is
+up-to-date with your local repository, etc.
+
+```
+git status
+```
+
+#### Fetch
+
+[Downloads all the changes from the remote repositories like GitHub's server.](https://git-scm.com/docs/git-fetch)
+This will basically tell your local repository about everything on the GitHub server without
+actually applying it to your current working space.
+
+```
+git fetch
+```
+
+#### Add
+
+[Add files to the index and staging area.](https://git-scm.com/docs/git-fetch) Git will
+automatically track what has changed in your repository, but before you can commit them you need to
+tell Git what files to commit. This is done by adding them to the staging area.
+
+You can run the `status` command to see what has changed. Then you can add them to your staging
+area.
+
+```
+git add <filename/directory>
+```
+
+#### Pull
+
+...
+
+### 3. Change your `README`
+
+Let's make our first commit...
+
+#### Add your name to Author Section
+
+> This `README.md` is a markdown file. Markdown files are text files with some basic formatting
+> abilities. Markdown files have a `.md` file extension and are widely used by developers for
+> documentation.
+
+For our first commit we will do something really simple. Let's add your name to the author section!
+
+
+
 
 > Make a commit.
 
-### 2. Add another Markdown File
+### 4. Add another Markdown File
 
 Add another markdown file and make a commit.
