@@ -1,7 +1,7 @@
 # Git & GitHub Example
 
-This repository is used as an example space for understanding Git & GitHub. Feel free to duplicate
-this repo and mess around.
+This repository is used as an example space for understanding Git & GitHub. Feel free to copy this
+repository and mess around; however, please provide attribution.
 
 ## Authors
 
