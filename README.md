@@ -1,3 +1,32 @@
+## NOTE :
+
+**BREAKING CHANGES COMING SOON**
+
+This is going to be getting some significant changes within the next few days. I want to transition
+this repository into a general learning space for Git & GitHub.
+
+I started working on this repo over my college Christmas vacation to help teach my high school
+computer teacher how to use Git & GitHub and help her teach her students Git & GitHub. I think that
+learning Git & GitHub in high school would be beneficial to many students, and while it seems
+daunting it really isn't that bad. I know it would have helped me with many of my projects while I
+was in high school.
+
+So currently I have an external Google Slides presentation that explains Git & GitHub, and then this
+template repository is used near the end to actually have the students tangibly learn and use Git &
+GitHub.
+
+I think I want to transition this repo into a more comprehensive Git & GitHub tips & tricks &
+learning space for basic and even more advanced concepts. Like for example I always forget how to
+transfer my GPG keys when I reset my laptop & PC every 6 months.
+
+### The Goal :
+
+- Transition this repo into a more comprehensive and inclusive Git & GitHub learning space.
+- Provide a very basic tutorial along with a presentation for understanding Git & GitHub.
+- House more detailed and complicated Git & GitHub tips & tricks for myself and others.
+
+I want to complete the majority of this by next wednesday, january 19th. Wish me luck! 👍
+
 # Git & GitHub Example
 
 This repository is used as an example space for understanding Git & GitHub. Feel free to copy this
